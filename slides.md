@@ -129,7 +129,7 @@ Output with config:
 - coredump decoding `--decode-coredumps info` (`Core dump → Data destination → UART`)
 - GDB - (`Component config → GDB Stub → GDBStub at runtime`) -> CTRL + C (not configurable)
 
-<img src="./decode.png" width="350"/>
+<img src="/decode.png" width="350"/>
 
 ---
 
