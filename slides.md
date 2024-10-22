@@ -136,7 +136,7 @@ Output with config:
 # Recent Features
 
 - auto log colors on the host side (default behavior) - save data transfer from ESP to host
-- multiple ELF file support for address and panic decoding (**only for package**) - decoding panic outside of the main app (in bootloader, LP core, ESP TEE)
+- multiple ELF file support for address and panic decoding (**only for package**) - decoding panic outside of the main app (in bootloader, LP core, ESP TEE - Trusted Execution Environment)
 - option to connect to port that is not yet available - e.g. chip is connected using USB JTAG/Serial and currently in a deep sleep: `--open-port-attempts N` N:-1 for infinite loop (**only for package**)
 
 ---
@@ -147,3 +147,5 @@ Output with config:
 - convert base64 log (binary mode) to text - further reduce the data transferred from ESP
 - running monitor without attaching STDIN to TTY - e.g. monitor in CLion, Docker may not work properly without TTY
 - configurable shortcut for GDB? - e.g. allow users to map CTRL + C to exit monitor
+
+**Fell free to reach out to me if you have any ideas for improvements!**
