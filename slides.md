@@ -137,7 +137,7 @@ Output with config:
 
 - auto log colors on the host side (default behavior) - save data transfer from ESP to host
 - multiple ELF file support for address and panic decoding (**only for package**) - decoding panic outside of the main app (in bootloader, LP core, ESP TEE - Trusted Execution Environment)
-- option to connect to port that is not yet available - e.g. chip is connected using USB JTAG/Serial and currently in a deep sleep: `--open-port-attempts N` N:-1 for infinite loop (**only for package**)
+- option to connect to port that is not yet available - e.g. chip is connected using USB Serial/JTAG and currently in a deep sleep: `--open-port-attempts N` N:-1 for infinite loop (**only for package**)
 
 ---
 
