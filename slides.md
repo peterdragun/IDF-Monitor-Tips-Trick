@@ -93,7 +93,7 @@ custom_reset_sequence = U0,1|W0.1|D1|R0|W0.5|D0
 
 - **U**: DTR,RTS (Unix only) ; **W**: wait; **D**: DTR; **R**: RTS
 - Option to share this configuration with Esptool - `setup.cfg` or `tox.ini`
-- More details in the next slide and IDF Monitor README: https://github.com/espressif/esp-idf-monitor#custom-reset-sequence
+- More details in the IDF Monitor README: https://github.com/espressif/esp-idf-monitor#custom-reset-sequence
 
 ---
 
