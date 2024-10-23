@@ -117,7 +117,7 @@ Output with config:
 --- Using autodetected port /dev/cu.usbserial-11210
 --- esp-idf-monitor 1.5.0 on /dev/cu.usbserial-11210 115200
 --- Quit: Ctrl+W | Menu: Ctrl+U | Help: Ctrl+U followed by Ctrl+H
---- Loaded custom configuration from /Users/peterdragun/esp-idf-monitor.cf
+--- Loaded custom configuration from /Users/peterdragun/esp-idf-monitor.cfg
 ```
 
 ---
